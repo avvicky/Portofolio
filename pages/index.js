@@ -97,22 +97,22 @@ export default function Home() {
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap '>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/gym-app"><Image className='rounded-lg object-cover' loading='lazy'   src={web1} width={'100%'} height={'100%'}  /></a></div>
+          <div><a href="https://github.com/avvicky/gym-app" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Gym-app"  src={web1} width={'100%'} height={'100%'}  /></a></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/Blog"><Image className='rounded-lg object-cover' loading='lazy'   src={web3} width={'100%'} height={'100%'}  /></a></div>
+          <div><a href="https://github.com/avvicky/Blog" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Blog" src={web3} width={'100%'} height={'100%'}  /></a></div>
         </div>
         <div className='basis-1/3 flex-1'> 
-          <div><a href="https://github.com/avvicky/random-quote"><Image  className='rounded-lg object-cover' loading='lazy'   src={web4}  width={'100%'} height={'100%'} /></a></div>
+          <div><a href="https://github.com/avvicky/random-quote" target="_blank"><Image  className='rounded-lg object-cover' alt="random-quote" loading='lazy'   src={web4}  width={'100%'} height={'100%'} /></a></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/Todo-List"><Image className='rounded-lg object-cover' loading='lazy'   src={web2} width={'100%'} height={'100%'}  /></a></div>
+          <div><a href="https://github.com/avvicky/Todo-List" target="_blank"><Image className='rounded-lg object-cover' alt="Todo-List" loading='lazy'   src={web2} width={'100%'} height={'100%'}  /></a></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/OAuth"><Image className='rounded-lg object-cover' loading='lazy'   src={web5} width={'100%'} height={'100%'}  /></a></div>
+          <div><a href="https://github.com/avvicky/OAuth" target="_blank"><Image className='rounded-lg object-cover' alt="OAuth" loading='lazy'   src={web5} width={'100%'} height={'100%'}  /></a></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/Drum-Machine"><Image className='rounded-lg object-cover' loading='lazy'   src={web6} width={'100%'} height={'100%'}  /></a></div>
+          <div><a href="https://github.com/avvicky/Drum-Machine" target="_blank"><Image className='rounded-lg object-cover' alt="Drum-Machine" loading='lazy'   src={web6} width={'100%'} height={'100%'}  /></a></div>
         </div>
         </div>
       </section>
