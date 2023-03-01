@@ -100,13 +100,13 @@ export default function Home() {
           <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/gym-app" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Gym-app"  src={web1} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Gym-app</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Blog" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Blog" src={web3} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Gym-app</h4></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Blog" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Blog" src={web3} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Blog</h4></div>
         </div>
         <div className='basis-1/3 flex-1'> 
-          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/random-quote" target="_blank"><Image  className='rounded-lg object-cover' alt="random-quote" loading='lazy'   src={web4}  width={'100%'} height={'100%'} /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Blog</h4></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/random-quote" target="_blank"><Image  className='rounded-lg object-cover' alt="random-quote" loading='lazy'   src={web4}  width={'100%'} height={'100%'} /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Random-Quote Generator</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Todo-List" target="_blank"><Image className='rounded-lg object-cover' alt="Todo-List" loading='lazy'   src={web2} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Random-Quote Generater</h4></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Todo-List" target="_blank"><Image className='rounded-lg object-cover' alt="Todo-List" loading='lazy'   src={web2} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Todo-List</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
           <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/OAuth" target="_blank"><Image className='rounded-lg object-cover' alt="OAuth" loading='lazy'   src={web5} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Secrets</h4></div>
