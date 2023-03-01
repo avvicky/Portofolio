@@ -7,11 +7,11 @@ import deved from 'public/dev-ed-wave.png'
 import design from '../public/design.png'
 import code from '../public/code.png'
 import consulting from '../public/consulting.png'
-import web1 from '../public/web1.gif'
+import web1 from '../public/web1.jpeg'
 import web2 from '../public/web2.png'
-import web3 from '../public/web3.gif'
+import web3 from '../public/web3.png'
 import web4 from '../public/web4.png'
-import web5 from '../public/web5.gif'
+import web5 from '../public/web5.png'
 import web6 from '../public/web6.png'
 import { useState } from 'react'
 
@@ -96,23 +96,23 @@ export default function Home() {
           <h3 className='text-3xl py-5 dark:text-gray-200 '>Portfolio</h3>
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap '>
-        <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/gym-app" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Gym-app"  src={web1} width={'100%'} height={'100%'}  /></a></div>
+        <div className='basis-1/3 flex-1 '>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/gym-app" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Gym-app"  src={web1} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Gym-app</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/Blog" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Blog" src={web3} width={'100%'} height={'100%'}  /></a></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Blog" target="_blank"><Image className='rounded-lg object-cover' loading='lazy' alt="Blog" src={web3} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Gym-app</h4></div>
         </div>
         <div className='basis-1/3 flex-1'> 
-          <div><a href="https://github.com/avvicky/random-quote" target="_blank"><Image  className='rounded-lg object-cover' alt="random-quote" loading='lazy'   src={web4}  width={'100%'} height={'100%'} /></a></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/random-quote" target="_blank"><Image  className='rounded-lg object-cover' alt="random-quote" loading='lazy'   src={web4}  width={'100%'} height={'100%'} /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Blog</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/Todo-List" target="_blank"><Image className='rounded-lg object-cover' alt="Todo-List" loading='lazy'   src={web2} width={'100%'} height={'100%'}  /></a></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Todo-List" target="_blank"><Image className='rounded-lg object-cover' alt="Todo-List" loading='lazy'   src={web2} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Random-Quote Generater</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/OAuth" target="_blank"><Image className='rounded-lg object-cover' alt="OAuth" loading='lazy'   src={web5} width={'100%'} height={'100%'}  /></a></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/OAuth" target="_blank"><Image className='rounded-lg object-cover' alt="OAuth" loading='lazy'   src={web5} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Secrets</h4></div>
         </div>
         <div className='basis-1/3 flex-1'>
-          <div><a href="https://github.com/avvicky/Drum-Machine" target="_blank"><Image className='rounded-lg object-cover' alt="Drum-Machine" loading='lazy'   src={web6} width={'100%'} height={'100%'}  /></a></div>
+          <div className='shadow-lg dark:shadow-gray-600 rounded-lg'><a href="https://github.com/avvicky/Drum-Machine" target="_blank"><Image className='rounded-lg object-cover' alt="Drum-Machine" loading='lazy'   src={web6} width={'100%'} height={'100%'}  /></a> <h4 className='text-gray-800 py-1 px-5 dark:text-gray-200'>Drum-Machine</h4></div>
         </div>
         </div>
       </section>
