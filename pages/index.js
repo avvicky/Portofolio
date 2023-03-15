@@ -1,11 +1,6 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
-import {
-  AiFillTwitterCircle,
-  AiFillLinkedin,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import deved from "public/dev-ed-wave.png";
 import design from "../public/design.png";
@@ -16,7 +11,6 @@ import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import amazonclone from "../public/amazon-clone.png";
 import { useState } from "react";
 
@@ -105,9 +99,6 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Beautiful Designs
               </h3>
-              {/* <p className='py-2'>
-                Creating elegant design suited for your needs following core design theory.
-              </p> */}
               <h4 className="py-4 text-teal-600">Design tools I use</h4>
               <p className="text-gray-800 py-1 dark:text-gray-200 ">
                 Photoshop
@@ -122,9 +113,6 @@ export default function Home() {
                 height={100}
               />
               <h3 className="text-lg font-medium pt-8 pb-2">Style Your Site</h3>
-              {/* <p className='py-2'>
-                Creating elegant design suited for your needs following core design theory.
-              </p> */}
               <h4 className="py-4 text-teal-600">CSS Frameworks I use</h4>
               <p className="text-gray-800 py-1 dark:text-gray-200 ">Tailwind</p>
               <p className="text-gray-800 py-1 dark:text-gray-200 ">
